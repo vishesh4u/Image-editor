@@ -1,62 +1,52 @@
 # 🖼️ Image Editor
 
-A modern and responsive **Image Editor** built using **HTML5, CSS3, and Vanilla JavaScript**. It allows users to upload images, apply real-time filters, use predefined presets, reset edits, and download the edited image.
-
----
-
-## 🚀 Live Demo
-
->  GitHub Pages link here after deployment.
-
-Example:
-https://vishesh4u.github.io/Image-editor/
+A modern and responsive **Image Editor** built with **HTML5, CSS3, and Vanilla JavaScript**. Edit images in real-time using multiple filters, apply built-in presets, and download the edited image instantly.
 
 ---
 
 ## 📸 Preview
 
-![Image Editor Preview](assets/preview.png)
+### Original Image
 
-> Replace `preview.png` with a screenshot of your project.
+![Original Image](assets/orignal-image.png)
+
+### Edited Image
+
+![Edited Image](assets/edited-image.png)
 
 ---
 
 ## ✨ Features
 
-- 📤 Upload images
-- 🎨 Real-time image editing
-- ☀️ Brightness adjustment
-- 🌗 Contrast adjustment
-- 🌈 Saturation control
+- 📤 Upload Image
+- 🎨 Real-time Image Editing
+- ☀️ Brightness Adjustment
+- 🌗 Contrast Adjustment
+- 🌈 Saturation Control
 - 🎭 Hue Rotation
-- 🌫️ Blur effect
-- ⚫ Grayscale filter
-- 🟤 Sepia filter
-- 👻 Opacity adjustment
-- 🔄 Invert colors
-- 🎛️ 10 Built-in Presets
-- 🔄 Reset all filters
-- 💾 Download edited image
-- 📱 Responsive UI
+- 🌫️ Blur Effect
+- ⚫ Grayscale Filter
+- 🟤 Sepia Filter
+- 👻 Opacity Control
+- 🔄 Invert Colors
+- 🎛️ Built-in Presets
+  - Original
+  - Vintage
+  - Black & White
+  - Cinematic
+  - Warm
+  - Cool
+  - Faded
+  - Dramatic
+  - Dreamy
+  - Retro
+- 🔄 Reset Filters
+- 💾 Download Edited Image
+- 📱 Responsive User Interface
 
 ---
 
-## 🎨 Available Presets
-
-- Original
-- Vintage
-- Black & White
-- Cinematic
-- Warm
-- Cool
-- Faded
-- Dramatic
-- Dreamy
-- Retro
-
----
-
-## 🛠️ Built With
+## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
@@ -68,49 +58,37 @@ https://vishesh4u.github.io/Image-editor/
 
 ## 📂 Project Structure
 
-```
+```text
 Image-editor/
 │
 ├── assets/
-│   └── preview.png
+│   ├── edited-image.png
+│   └── orignal-image.png
+│
 ├── index.html
+├── script.js
 ├── style.css
 ├── theme.css
-├── script.js
 └── README.md
 ```
 
 ---
 
-## ⚙️ Installation
+## 🚀 Getting Started
 
-Clone the repository
+1. Clone the repository
 
 ```bash
 git clone https://github.com/vishesh4u/Image-editor.git
 ```
 
-Open the project
+2. Open the project folder
 
 ```bash
 cd Image-editor
 ```
 
-Run
-
-Simply open **index.html** in your browser.
-
----
-
-## 📸 Screenshots
-
-### Home
-
-Add a screenshot here.
-
-### Editing Image
-
-Add another screenshot here.
+3. Open `index.html` in your browser.
 
 ---
 
@@ -121,27 +99,9 @@ Add another screenshot here.
 - ↔️ Flip Image
 - 🔍 Zoom In / Zoom Out
 - ↩️ Undo / Redo
-- 🖱️ Drag & Drop Upload
-- 🌙 Dark/Light Theme Toggle
+- 🖱️ Drag & Drop Image Upload
+- 🌙 Light/Dark Theme Toggle
 - 🖌️ Drawing Tools
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Push the branch
-5. Open a Pull Request
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
 
 ---
 
@@ -151,4 +111,8 @@ This project is licensed under the MIT License.
 
 GitHub: https://github.com/vishesh4u
 
-If you like this project, consider giving it a ⭐ on GitHub!
+---
+
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a **⭐ Star** on GitHub.
